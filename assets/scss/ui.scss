@@ -1,0 +1,144 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+//UI element
+
+.btn {
+    width: 250px;
+    height: 55px;
+}
+.buttonBlue{
+    background-color: transparent;
+    border-color: #75ACFF;
+    color: #75ACFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.buttonBlue2{
+    background: #75ACFF;
+    box-shadow: 5px 5px 30px rgba(28, 69, 102, 0.1);
+    border-color: #75ACFF;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    width: 310px;
+    height: 100px;
+}
+
+.buttonOrange{
+    background-color: #F5841F;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+
+}
+
+.inputWhite{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    height: 50px;
+}   
+@media (max-width: 768px){
+    .btn {
+        width: 170px;
+        height: 35px;
+    }
+    .buttonBlue{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .buttonBlue2{
+        font-size: 14px;
+        line-height: 18px;
+        width: 245px;
+        height: 60px;
+    }
+    
+    .buttonOrange{
+        font-size: 15px;
+    }
+    .inputWhite{
+        border: none;
+        border-bottom: 1px solid #ccc;
+        background-color: transparent;
+        color: white;
+        width: 175px;
+        font-size: 20px;
+        height: 50px;
+    }   
+}
+@media (max-width: 450px){
+    .paddingLeft50px{
+        padding-left: 0px; 
+    }
+    .btn {
+        width: 180px;
+        height: 40px;
+    }
+    .buttonBlue{
+        background-color: transparent;
+        border-color: #75ACFF;
+        color: #75ACFF;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    .buttonBlue2{
+        background: #75ACFF;
+        box-shadow: 5px 5px 30px rgba(28, 69, 102, 0.1);
+        border-color: #75ACFF;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        width: 200px;
+        height: 50px;
+    }
+    
+    .buttonOrange{
+        background-color: #F5841F;
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        border: none;
+    
+    }
+    
+    .inputWhite{
+        border: none;
+        border-bottom: 1px solid #ccc;
+        background-color: transparent;
+        color: white;
+        width: 300px;
+        font-size: 20px;
+        height: 50px;
+    }   
+}
